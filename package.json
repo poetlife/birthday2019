@@ -1,6 +1,8 @@
 {
     "name": "birthday2019",
     "author": "Jakie Peng",
+    "version": "1.0.0",
+    "license": "Apache License 2.0",
     "main": "app.js",
     "scripts": {
         "start": "node app.js"
@@ -8,5 +10,15 @@
     "dependencies": {
         "koa2": "2.0.0-alpha.7",
         "koa-route": "3.2.0"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/poetlife/birthday2019.git"
+    },
+    "description": "for the birthday 2019 of uozoyo",
+    "keywords": [
+        "koa",
+        "uozoyo",
+        "birthday"
+    ]
 }
