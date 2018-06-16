@@ -2,7 +2,7 @@
 // 这个项目是一个简单的node.js服务器
 
 const Koa = require("koa2");
-const app = Koa();
+const app = new Koa();
 
 // 创建路由功能
 app.use(async(ctx, next)=>{
