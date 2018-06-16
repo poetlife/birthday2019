@@ -1,0 +1,12 @@
+{
+    "name": "birthday2019",
+    "author": "Jakie Peng",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "koa2": "2.0.0-alpha.7",
+        "koa-route": "3.2.0"
+    }
+}
