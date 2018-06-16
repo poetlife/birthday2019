@@ -7,8 +7,8 @@ const app = new Koa();
 // 创建路由功能
 app.use(async(ctx, next)=>{
     await next();
-    ctx.respose.type = "text/html";
-    ctx.respose.body = "<h1>love you uozoyo, peng</h1>";
+    ctx.response.type = "text/html";
+    ctx.response.body = "<h1>love you uozoyo, peng</h1>";
 })
 
 // 监听端口
